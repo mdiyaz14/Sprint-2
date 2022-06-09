@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="61.111">
+    <testcase classname="Complete business flow of JPetStorer." name="Create an account with JPetStorer." time="13.468">
+        <system-out><![CDATA[Given User navigates to sign up page........................................passed
+When User enters necessary details..........................................passed
+Then Account is created.....................................................passed
+And User enters invalid data in mandatory fields............................passed
+Then Error message..........................................................passed
+And User leaves mandatory fields blank......................................passed
+Then Error message is displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Complete business flow of JPetStorer." name="Login through valid credentials." time="5.36">
+        <system-out><![CDATA[Given User is on login page.................................................passed
+When User enters Debries and Debries@123....................................passed
+And User clicks on login....................................................passed
+Then Logged in successfully.................................................passed
+And User checks logo........................................................passed
+Then User finds logo on top left corner.....................................passed
+And User looks for welcome message..........................................passed
+Then User reads the welcome message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Complete business flow of JPetStorer." name="Search for pet." time="10.255">
+        <system-out><![CDATA[Given User enters petname in search.........................................passed
+When User clicks on search..................................................passed
+Then Respective pets are displayed..........................................passed
+And User clicks on petId....................................................passed
+Then Pet varieties are displayed............................................passed
+And User clicks on certain pet in categories................................passed
+Then User is navigated to the respective pet page...........................passed
+And User clicks on product id...............................................passed
+Then Navigates to the varieties available...................................passed
+And User clicks on item id..................................................passed
+Then Respective pet details are displayed...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Complete business flow of JPetStorer." name="Add to cart" time="13.689">
+        <system-out><![CDATA[Given User is on pet page...................................................passed
+When User clicks on add to cart.............................................passed
+Then Navigated to cart......................................................passed
+And User changes the quantity...............................................passed
+When User clicks on update cart.............................................passed
+Then Quantity and amount gets updated.......................................passed
+And User clicks on remove...................................................passed
+When Pet is removed from cart...............................................passed
+Then Cart empty message is displayed........................................passed
+And User clicks on return to main menu......................................passed
+Then Navigated to the main menu.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Complete business flow of JPetStorer." name="Proceed to checkout and place the order." time="13.462">
+        <system-out><![CDATA[Given User navigates to cart and click on checkout..........................passed
+When Place the order........................................................passed
+And Order is placed.........................................................passed
+Then User should see the successfully placed order message..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Complete business flow of JPetStorer." name="User should be able to delete order by selecting orderId." time="4.66">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),'1005')]&quot;}&#10;  (Session info: chrome=102.0.5005.63)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'INLEN8520053156', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [66d9b32d03fc6ea04e2879702a768d5e, findElement {using=xpath, value=//a[contains(text(),'1005')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\IYAZMO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59718/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 66d9b32d03fc6ea04e2879702a768d5e" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User navigates to my orders...........................................passed
+When User selects a particular order id.....................................failed
+And Clicks on delete order..................................................skipped
+Then Order deleted successfully.............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'1005')]"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'INLEN8520053156', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66d9b32d03fc6ea04e2879702a768d5e, findElement {using=xpath, value=//a[contains(text(),'1005')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\IYAZMO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59718/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66d9b32d03fc6ea04e2879702a768d5e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at BusinessFlow.JPetStoreStepDefinitions.user_selects_a_particular_order_id(JPetStoreStepDefinitions.java:333)
+	at ✽.User selects a particular order id(file:///C:/Users/IYAZMO/OneDrive%20-%20Capgemini/Desktop/JPetStore-GUI2/./src/test/resources/Features/JPetStore.feature:65)
+]]></failure>
+    </testcase>
+</testsuite>
