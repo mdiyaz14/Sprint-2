@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T12:23:46 IST" name="Default suite" finished-at="2022-06-09T12:23:49 IST" duration-ms="3077">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T12:23:46 IST" name="Default test" finished-at="2022-06-09T12:23:49 IST" duration-ms="3077">
+      <class name="Pet.AddNewPet">
+        <test-method signature="AddPet()[pri:0, instance:Pet.AddNewPet@51f116b8]" started-at="2022-06-09T12:23:46 IST" name="AddPet" finished-at="2022-06-09T12:23:49 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPet -->
+      </class> <!-- Pet.AddNewPet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
