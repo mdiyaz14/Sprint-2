@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T21:04:11 IST" name="Default suite" finished-at="2022-06-09T21:04:54 IST" duration-ms="42762">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T21:04:11 IST" name="Default test" finished-at="2022-06-09T21:04:54 IST" duration-ms="42762">
+      <class name="JpetStore.JpetStoreBusinessFlowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:11 IST" name="setup" finished-at="2022-06-09T21:04:21 IST" duration-ms="10435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountCreatedSuccessfully()[pri:1, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:21 IST" name="testAccountCreatedSuccessfully" finished-at="2022-06-09T21:04:22 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountCreatedSuccessfully -->
+        <test-method signature="testHomePageAppearCorrect()[pri:2, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:22 IST" name="testHomePageAppearCorrect" finished-at="2022-06-09T21:04:26 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageAppearCorrect -->
+        <test-method signature="Search_Pet_Page()[pri:3, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:26 IST" name="Search_Pet_Page" finished-at="2022-06-09T21:04:31 IST" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Pet_Page -->
+        <test-method signature="Cart()[pri:4, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:31 IST" name="Cart" finished-at="2022-06-09T21:04:41 IST" duration-ms="9971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method signature="addPetToCart()[pri:5, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:41 IST" name="addPetToCart" finished-at="2022-06-09T21:04:45 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPetToCart -->
+        <test-method signature="testOrderPlacedSuccessfully()[pri:6, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:45 IST" name="testOrderPlacedSuccessfully" finished-at="2022-06-09T21:04:49 IST" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderPlacedSuccessfully -->
+        <test-method signature="Delete()[pri:7, instance:JpetStore.JpetStoreBusinessFlowTest@7c711375]" started-at="2022-06-09T21:04:49 IST" name="Delete" finished-at="2022-06-09T21:04:54 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+      </class> <!-- JpetStore.JpetStoreBusinessFlowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
